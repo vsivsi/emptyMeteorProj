@@ -1,0 +1,17 @@
+//- ===========================================================================
+//-      Copyright (C) 2015 by Vaughn Iverson
+//-      emptyMeteorProj is free software released under the MIT/X11 license.
+//-      See included LICENSE file for details.
+//- ===========================================================================
+
+head
+  title emptyMeteorProj
+
+body
+  div.ui.container.segment
+    h1 Welcome to Meteor!
+    +hello
+
+template(name="hello")
+  button Click Me
+  p You've pressed the button #{counter} times.
