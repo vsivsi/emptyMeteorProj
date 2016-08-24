@@ -1,3 +1,3 @@
 .custom.semantic.json
-client/lib/semantic/definitions
-client/lib/semantic/themes
+client/lib/semantic-ui
+!custom.semantic.json
