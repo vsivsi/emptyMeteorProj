@@ -18,5 +18,14 @@ if Meteor.isClient
       Session.set 'counter', Session.get('counter') + 1
 
 if Meteor.isServer
+
+  # Test server-side packages from npm:
+  # These can be added using the meteor command, e.g.
+  # % meteor npm --save install async
+
+  # fs = require 'fs'
+  # async = require 'async'
+  # mongodb = require 'mongodb'
+
   Meteor.startup () ->
     # code to run on server at startup
